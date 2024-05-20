@@ -59,6 +59,10 @@ body {
   font-family: FigTree;
 }
 
+.content_title:hover {
+  color: #f4d04e;
+}
+
 .content_description {
   color: #7f7f7f;
   font-family: FigTree;
