@@ -1,3 +1,8 @@
+:root {
+  --jaune-poussin: #f4d04e;
+}
+/* I'm trying for the first time CSS Variables */
+
 @font-face {
   font-family: "FigTree";
   src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf)
@@ -8,10 +13,11 @@
   font-family: "FigTree";
   src: url(./assets/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
 }
+/* I'm trying for the first time Hosting the Font Files */
 
 body {
   display: flex;
-  background: #f4d04e;
+  background: var(--jaune-poussin);
   justify-content: center;
 }
 
@@ -41,7 +47,7 @@ body {
 }
 
 .content_category {
-  background-color: #f4d04e;
+  background-color: var(--jaune-poussin);
   padding: 4px 12px;
   width: fit-content;
   border-radius: 4px;
@@ -60,7 +66,7 @@ body {
 }
 
 .content_title:hover {
-  color: #f4d04e;
+  color: var(--jaune-poussin);
 }
 
 .content_description {
