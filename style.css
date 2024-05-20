@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "FigTree";
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "FigTree";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+}
+
 body {
   display: flex;
   background: #f4d04e;
@@ -35,18 +46,22 @@ body {
   width: fit-content;
   border-radius: 4px;
   font-weight: bold;
+  font-family: FigTree;
 }
 
 .content_publish_date {
+  font-family: FigTree;
 }
 
 .content_title {
   font-size: larger;
   font-weight: bold;
+  font-family: FigTree;
 }
 
 .content_description {
   color: #7f7f7f;
+  font-family: FigTree;
 }
 
 .card_author {
@@ -63,4 +78,5 @@ body {
 
 .author_name {
   font-weight: bold;
+  font-family: FigTree;
 }
