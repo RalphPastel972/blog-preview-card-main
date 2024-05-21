@@ -22,7 +22,8 @@ body {
 }
 
 .card {
-  width: 384px;
+  max-width: 384px;
+  min-width: 327px;
   height: auto;
   background-color: white;
   margin-top: 35px;
@@ -38,6 +39,8 @@ body {
 
 .blog_image_container img {
   border-radius: 10px;
+  display: block;
+  max-width: 100%;
 }
 
 .card_content {
